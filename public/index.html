@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="header">
+        <a href="#" class="logo">LT<span>dev</span></a>
+        <i class='bx bx-menu' id="menu-burger"></i>
+        <nav class="navigation">
+            <a href="#home" class="active">Accueil</a>
+            <a href="#about">A propos</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello je suis </h3>
+            <h1>Ludovic Thibaud</h1>
+            <h3>et je suis <span class="multiple"> </span></h3>
+            <p>Passionné par le développement web, j’ai choisi de transformer ma carrière après 14 ans dans la gestion
+                de projets techniques.
+                Aujourd’hui, j’aide les entreprises et associations à concrétiser leurs idées à travers des applications
+                web modernes, performantes et intuitives.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/ludovic-thibaud-dev/" target="_blank" rel="noopener noreferrer"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Ludo-dev-1" target="_blank" rel="noopener noreferrer"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./images/lud-01.webp" alt="image de Ludovic Thibaud">
+        </div>
+    </section>
+
+    <!-- A propos -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/lud-01.webp" alt="image de Ludovic Thibaud">
+        </div>
+        <div class="about-content">
+            <h2 class="section-title"><span>A propos</span></h2>
+            <h3>Développeur Web Fullstack</h3>
+            <p>
+                Après une carrière de plus de 14 ans en tant que chargé d’études techniques, j’ai choisi de me
+                reconvertir dans un domaine qui me passionne : le développement web.
+                Formé au métier de développeur web et web mobile chez O’clock, j’ai acquis une solide expérience sur les
+                technologies modernes telles que <strong>React</strong>,
+                <strong>Node.js</strong>, <strong>Express</strong> et <strong>PostgreSQL</strong>.
+                Mon objectif est simple : concevoir des sites et applications web à la fois performants, clairs et
+                agréables à utiliser.
+            </p>
+            <a href="./assets/CV-FULL (2).pdf" class="btn" download>Télécharger mon CV</a>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+
+    <section class="services" id="services">
+        <h2 class="section-title">Mes <span>Services</span></h2>
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Développement Fullstack</h3>
+                <p>
+                    Je conçois des applications web complètes, du front-end au back-end.
+                    Grâce à une architecture claire et des API robustes, je développe des solutions fiables, évolutives
+                    et adaptées à vos besoins.
+                </p>
+                <a href="#contact">Me contacter</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>Développement Frontend</h3>
+                <p>
+                    J’accorde une grande importance à l’expérience utilisateur.
+                    Avec <strong>React</strong> et <strong>Tailwind CSS</strong>, je crée des interfaces modernes,
+                    dynamiques et parfaitement adaptées aux différents supports.
+                </p>
+                <a href="#contact">Me contacter</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-server'></i>
+                <h3>Développement Backend</h3>
+                <p>
+                    Je développe des API sécurisées et performantes avec <strong>Node.js</strong> et
+                    <strong>Express</strong>, connectées à des bases de données <strong>PostgreSQL</strong>.
+                    Mon approche privilégie la clarté du code, la sécurité et la maintenabilité.
+                </p>
+                <a href="#contact">Me contacter</a>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+
+        <section class="portfolio" id="portfolio">
+
+            <h2 class="section-title">Mes <span>Projets</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="./images/projet-01.webp" alt="image du projet GreenRoots">
+                    <div class="portfolio-layer">
+                        <h4>GreenRoots</h4>
+                        <p>
+                            Projet e-commerce développé en équipe lors de ma formation : une boutique en ligne dédiée à
+                            la vente d’arbres.
+                            Stack : React, Node.js, Express, PostgreSQL, Stripe.
+                        </p>
+                        <a href="https://greenroots-front-flax.vercel.app/" target="_blank" rel="noopener noreferrer"><i
+                                class='bx bx-link-external'></i></a>
+
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="./images/projet-02.jpg" alt="image du projet O'Recipes">
+                    <div class="portfolio-layer">
+                        <h4>O'Recipes</h4>
+                        <p>
+                            Application de partage de recettes développée avec React et une API Express.
+                            L’objectif : simplifier la consultation et la gestion de recettes favorites.
+                        </p>
+                        <a href="https://orecipes.vercel.app/" target="_blank" rel="noopener noreferrer"><i
+                                class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-box">
+                    <img src="./images/projet-03.jpg" alt="image du projet O'coffee">
+                    <div class="portfolio-layer">
+                        <h4>O'coffee</h4>
+                        <p>
+                            Application de gestion de cafés développée en Node.js avec une base de données PostgreSQL.
+                            Gestion des produits, utilisateurs et commandes via un back-office intuitif.
+                        </p>
+                        <a href="https://github.com/O-clock-Ramen/S09-ocoffee-Ludo-dev-1/" target="_blank"
+                            rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="section-title">Me <span>Contacter</span></h2>
+            <div class="contact-container">
+                <ul>
+                    <li> Par mail : <a href="mailto:thibaud.ludovic@sfr.fr">thibaud.ludovic@sfr.fr</a></li>
+                    <li> Par téléphone : <a href="tel:+33638485760">+33638485760</a></li>
+                    <li> Par LinkedIn : <a href="https://www.linkedin.com/in/ludovic-thibaud-dev/"><i
+                                class='bx bxl-linkedin'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="footer-txt">
+                <p>Copyright&copy; 2023 - Mon Portfolio. Tous droits réservés.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home" class="btn-home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="app.js" defer></script>
+</body>
+
+</html>
